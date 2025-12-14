@@ -1,6 +1,7 @@
 # Automated Quality Control of Facade Elements
+## Tim - Fasada na Oko
 
-## Intro / Context / Problem
+## Intro
 
 **KFK** (Krov, Fasada, Konstrukcija) is a European leader in aluminum and glass facade systems.  
 Each facade element must pass a quality control (QC) step before installation. Today, this process is manual: a worker visually inspects each element and compares it against specifications. This approach is slow, error-prone, and expensive—missed defects are often discovered only on-site, where repair or replacement costs are extremely high.
