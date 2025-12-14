@@ -1,0 +1,18 @@
+image,status,defects,element_raw,element,element_score
+positive/IMG_5479 3.jpg,FAIL,2 orange metal sheet missing,facade_element1,1,0.9660983681678772
+positive/IMG_5480 3.jpg,FAIL,2 orange metal sheet missing,facade_element1,1,0.9670812487602234
+positive/IMG_5655.jpg,FAIL,"2 orange metal sheet missing, orange divisor missing",facade_element1,1,0.9007097482681274
+positive/IMG_5656.jpg,FAIL,2 orange metal sheet missing,facade_element1,1,0.9187067151069641
+positive/IMG_5657.jpg,FAIL,"2 orange metal sheet missing, orange divisor missing",facade_element1,1,0.9631149768829346
+positive/IMG_5672.jpg,PASS,,facade_element1,1,0.9892992973327637
+positive/IMG_5674.jpg,PASS,,facade_element1,1,0.9727619886398315
+positive/IMG_5680.jpg,FAIL,"2 orange metal sheet missing, orange divisor missing",facade_element1,1,0.9785405397415161
+positive/IMG_5682.jpg,PASS,,facade_element1,1,0.9459283351898193
+positive/IMG_5683.jpg,PASS,,facade_element1,1,0.9604235291481018
+positive/IMG_5684.jpg,PASS,,facade_element1,1,0.9806838631629944
+positive/IMG_5685.jpg,PASS,,facade_element1,1,0.9846540093421936
+positive/IMG_5698.jpg,PASS,,facade_element0,0,0.868472158908844
+positive/IMG_5699.jpg,PASS,,facade_element0,0,0.9320833086967468
+positive/IMG_5705.jpg,FAIL,"2 orange metal sheet missing, orange divisor missing",facade_element1,1,0.3874371647834778
+positive/IMG_5706.jpg,PASS,,facade_element0,0,0.8304038643836975
+positive/IMG_5707.jpg,FAIL,2 orange metal sheet missing,facade_element1,1,0.8946685194969177

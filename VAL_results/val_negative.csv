@@ -1,0 +1,26 @@
+image,status,defects,element_raw,element,element_score
+negative/IMG_5347 2.jpg,PASS,,facade_element1,1,0.9656980037689209
+negative/IMG_5348 2.jpg,PASS,,facade_element1,1,0.9509457349777222
+negative/IMG_5355 2.jpg,FAIL,"2 orange metal sheet missing, orange divisor missing",facade_element1,1,0.9317873120307922
+negative/IMG_5367 2.jpg,FAIL,"2 orange metal sheet missing, orange divisor missing",facade_element1,1,0.9865142703056335
+negative/IMG_5368 2.jpg,FAIL,"2 orange metal sheet missing, orange divisor missing",facade_element1,1,0.9696519374847412
+negative/IMG_5369 2.jpg,FAIL,"2 orange metal sheet missing, orange divisor missing",facade_element1,1,0.9800843000411987
+negative/IMG_5370 2.jpg,FAIL,orange divisor missing,facade_element1,1,0.9812226891517639
+negative/IMG_5371 2.jpg,FAIL,2 orange metal sheet missing,facade_element1,1,0.9695820808410645
+negative/IMG_5372 2.jpg,FAIL,2 orange metal sheet missing,facade_element1,1,0.9751470685005188
+negative/IMG_5392 2.jpg,FAIL,orange divisor missing,facade_element1,1,0.975557267665863
+negative/IMG_5402 2.jpg,FAIL,"2 orange metal sheet missing, orange divisor missing",facade_element1,1,0.9548624753952026
+negative/IMG_5444 3.jpg,FAIL,orange divisor missing,facade_element1,1,0.9635735154151917
+negative/IMG_5448 3.jpg,PASS,,facade_element1,1,0.9650954008102417
+negative/IMG_5460 3.jpg,PASS,,facade_element1,1,0.97911536693573
+negative/IMG_5466 3.jpg,PASS,,facade_element1,1,0.9890866279602051
+negative/IMG_5468 3.jpg,PASS,,facade_element1,1,0.9870087504386902
+negative/IMG_5493 3.jpg,PASS,,facade_element1,1,0.93097984790802
+negative/IMG_5618.jpg,PASS,,facade_element0,0,0.9404064416885376
+negative/IMG_5627.jpg,PASS,,,,0.0
+negative/IMG_5629.jpg,PASS,,facade_element0,0,0.9346451163291931
+negative/IMG_5630.jpg,PASS,,facade_element0,0,0.934394121170044
+negative/IMG_5645.jpg,FAIL,"2 orange metal sheet missing, orange divisor missing, broken glass",facade_element1,1,0.9722549319267273
+negative/IMG_5666.jpg,PASS,,facade_element1,1,0.9865064024925232
+negative/IMG_5668.jpg,PASS,,facade_element1,1,0.9888760447502136
+negative/IMG_9827.png,FAIL,broken glass,facade_element1,1,0.9851566553115845
