@@ -86,7 +86,7 @@ To make the solution usable, we implemented a **simple Streamlit UI** that:
 
 ---
 
-## Why Now
+### 9. Why Now?
 
 KFK is actively expanding its **Data Science and automation efforts**.  
 This solution demonstrates a scalable path toward:
@@ -98,7 +98,7 @@ The approach is modular and can evolve with more data and tighter integration of
 
 ---
 
-## Product Demo
+### 10. Product Demo
 
 The final solution is wrapped in a lightweight **Streamlit application** designed for fast and intuitive QC inspection.
 
@@ -114,7 +114,7 @@ For each image, the application:
 
 The demo includes screenshots of example usage for both single-image and batch workflows.
 
-### Demo Screenshots
+### 11. Demo Screenshots
 
 <img src="assets/demo1.png" width="600">
 <img src="assets/demo2.png" width="600">
@@ -122,7 +122,7 @@ The demo includes screenshots of example usage for both single-image and batch w
 
 ---
 
-## Long-Term Vision
+### 12. Long-Term Vision
 
 Although not fully implemented during the hackathon, **3D-model-based synthetic data generation** remains a highly promising direction.  
 With sufficient time, this approach could enable:
@@ -132,7 +132,7 @@ With sufficient time, this approach could enable:
 
 ---
 
-## Team
+### 13. Team
 
 - **Marin Meštrović** – Student, PMF (Graduate Program in Computer Science)  
 - **Damjan Crnković** – Student, FER  
