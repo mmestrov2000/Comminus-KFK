@@ -8,6 +8,8 @@ Each facade element must pass a quality control (QC) step before installation. T
 
 This project was developed during **NeoData Hackathon 2025**, organized by **Comminus**, with the goal of exploring an automated, scalable computer vision solution for defect detection on facade elements.
 
+App: https://careful-quantitative-related-operates.trycloudflare.com/
+
 ---
 
 ## Approach / Solution
