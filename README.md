@@ -112,6 +112,8 @@ For each image, the application:
 - Generates a structured QC report (PASS / FAIL with detected defects)  
 - **Visually highlights selected defects** directly on the image for easier interpretation  
 
+Try it out: https://careful-quantitative-related-operates.trycloudflare.com/
+
 The demo includes screenshots of example usage for both single-image and batch workflows.
 
 ### 11. Demo Screenshots
