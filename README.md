@@ -73,9 +73,50 @@ false positives are costly in QC and directly penalized in evaluation.
 
 ---
 
-### 7. Explored but Dropped: 3D–2D Alignment
-We also investigated aligning the ideal **3D model** with the **2D image** to detect deviations as defects.  
-While promising for long-term industrial deployment, accurate 3D–2D alignment exceeded the scope of a 24-hour hackathon and was therefore dropped.
+### 7. 3D Model–Based Defect Detection (Extended Exploration)
+
+#### Core Idea
+After classifying the facade element type using YOLO, we explored leveraging the provided **3D CAD models** to extend the available training data.
+
+The proposed workflow was:
+- Render synthetic images from 3D models across multiple viewpoints  
+- Combine real images and synthetic renders into a unified training set  
+- Improve model robustness to viewpoint and condition variability  
+
+This approach was motivated by the limited size of the real dataset.
+
+#### Expected Advantages
+- Significant increase in training data volume  
+- Coverage of viewpoints and angles absent in real images  
+- Controlled variation of lighting and rendering conditions  
+
+#### Implementation: Blender Rendering Pipeline
+We implemented an automated **Blender-based rendering pipeline** to generate synthetic data:
+- Rendered each 3D model from **12–16 horizontal angles** and **3–5 elevations**
+- Applied dynamic lighting configurations
+- Generated approximately **80 renders per facade type** (≈240 images total)
+
+The intent was to merge synthetic and real images during training to improve defect detection generalization.
+
+#### Limitations and Outcome
+Despite successful rendering, this approach was not fully integrated due to time constraints.
+
+**Key challenges:**
+- Synthetic images appeared visually cleaner than real production images (domain gap)
+- Bridging synthetic-to-real differences required additional techniques (e.g. domain adaptation, style transfer)
+- Insufficient time to tune the balance between synthetic and real data during training
+
+**What was achieved:**
+- Fully automated Blender rendering pipeline  
+- Generation of ~240 synthetic images  
+- Visual confirmation that renders closely resemble real facade elements  
+
+**What remained incomplete:**
+- Joint training with real and synthetic data  
+- Explicit synthetic-to-real domain adaptation  
+- Quantitative evaluation of performance gains  
+
+This direction remains highly promising and could substantially improve performance with additional development time focused on domain alignment.
 
 ---
 
