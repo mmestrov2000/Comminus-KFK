@@ -8,7 +8,7 @@ Each facade element must pass a quality control (QC) step before installation. T
 
 This project was developed during **NeoData Hackathon 2025**, organized by **Comminus**, with the goal of exploring an automated, scalable computer vision solution for defect detection on facade elements.
 
-App: https://careful-quantitative-related-operates.trycloudflare.com/
+App: https://metals-recovered-foundation-borders.trycloudflare.com/
 
 ---
 
@@ -156,7 +156,7 @@ For each image, the application:
 - Generates a structured QC report (PASS / FAIL with detected defects)  
 - **Visually highlights selected defects** directly on the image for easier interpretation  
 
-Try it out: https://careful-quantitative-related-operates.trycloudflare.com/
+Try it out: https://metals-recovered-foundation-borders.trycloudflare.com/
 
 The demo includes screenshots of example usage for both single-image and batch workflows.
 
