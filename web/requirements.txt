@@ -1,0 +1,9 @@
+streamlit>=1.36.0
+pandas>=2.0.0
+numpy>=1.24.0
+opencv-python-headless>=4.8.0
+Pillow==10.0.1
+torch
+transformers --pre
+huggingface_hub
+ultralytics
